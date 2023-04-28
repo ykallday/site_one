@@ -1,16 +1,18 @@
 
 import './App.css';
 import Nav from './components/Nav'
-import Hero from './components/Hero';
-import MainFeatures from './components/MainFeatures'
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="font-reg">
       <div className="bg-black h-[10vh]">
+        <header>
         <Nav/>
-        <Hero/>
-        <MainFeatures/>
+        </header>
+        <main>
+        <Main/>
+        </main>
       </div>
 
     </div>
